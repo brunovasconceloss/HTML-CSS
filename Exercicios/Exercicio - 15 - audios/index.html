@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Audio</title>
+</head>
+
+<body>
+        <h1>Aprendendo a colocar audio no site</h1>
+            <p>Vamos aprender a reproduzir aúdios em HTML 5</p>
+                <!--Existem duas formas de aprender a colocar aúdio, vamos lá:-->
+
+                <!-- A primeira: -->
+
+                <audio src="audio/SET WESLEY ALEMÃO - Lipi_ Paulin da Capital_ Lemos_ Gabb_ Paiva_ Lele_ Piedro e Ryan (GM e Oldilla)(MP3_160K).mp3"  controls></audio>
+
+                <!-- Compatibilidades dos navegadores: MP3 - OGG - WAV -->
+
+                <!-- Segunda maneira (Correta), utilizamos essa maneira pois caso o navegador não suporte a versão mp3 ele consiga carregar os outros formatos de audio-->
+
+        <h1>Segunda forma de fazer</h1>
+
+                <audio preload="metadata" autoplay controls>
+                    <source src="audio/SET WESLEY ALEMÃO - Lipi_ Paulin da Capital_ Lemos_ Gabb_ Paiva_ Lele_ Piedro e Ryan (GM e Oldilla)(MP3_160K).mp3" type="audio/mpeg">
+                    <source src="audio/SET WESLEY ALEMÃO - Lipi_ Paulin da Capital_ Lemos_ Gabb_ Paiva_ Lele_ Piedro e Ryan (GM e Oldilla)(MP3_160K).ogg" type="audio/ogg">
+                    <source src="audio/SET WESLEY ALEMÃO - Lipi_ Paulin da Capital_ Lemos_ Gabb_ Paiva_ Lele_ Piedro e Ryan (GM e Oldilla)(MP3_160K).wav" type="audio/ogg">
+        
+
+                </audio>
+                
+                <br><br><a href="audio/SET WESLEY ALEMÃO - Lipi_ Paulin da Capital_ Lemos_ Gabb_ Paiva_ Lele_ Piedro e Ryan (GM e Oldilla)(MP3_160K).mp3">Clique aqui para realizar o download do arquivo.</a>
+               
+                <!-- Autoplay é caso vc queira utilizar no seu site, para que a musica ou audicio inicie quando a pessoa acesse seu site. -->
+</body>
+
+</html>

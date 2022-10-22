@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive, Handwriting; 
+    font-size: 4em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p {
+    font: normal normal 16px 'Arial';
+}

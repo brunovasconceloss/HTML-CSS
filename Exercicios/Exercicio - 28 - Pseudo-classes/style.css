@@ -1,0 +1,20 @@
+div {
+    background-color: lightblue;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/* Pseudo classes: 
+
+Utilizar o nome da tag deseja seguida de dois pontos (:)
+Vão existir inúmeras pseudo classes, neste exemplo iremos utilizar o hover
+
+*/
+
+div:hover {
+    background-color: blue;
+
+}

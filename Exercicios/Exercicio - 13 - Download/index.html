@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Aprendendo download</title>
+</head>
+
+<body>
+        <h1>Links para downloads</h1>    
+
+        <!--Existem vários formatos e formas de deixar um arquivo baixável, vou utilizar de exemplo a forma abaixo que o link vai ser colocado dentro de uma lista-->
+
+    <ul>
+        <li><a href="aula/10 - Ligações em toda parte (2).pdf" download="arquivo10.pdf" type="application/pdf">Clique aqui para baixar o PDF</a></li>
+        <li><a href="aula/10 - Ligações em toda parte (2).zip" download="arquivo.zip" type="application/zip">Clique aqui para baixar o PDF via ZIP</a></li>
+    </ul>
+
+        <!--Conseguimos deixar o arquivo disponível para download fora da tag de listas também, abaixo: -->
+
+        <a href="aula/10 - Ligações em toda parte (2).pdf" type="application/pdf" download="arquivo10.pdf">Clique aqui para baixar o PDF</a>
+        <br>
+        <a href="aula/10 - Ligações em toda parte (2).zip" type="application/zip" download="arquivo10.zip">Clique aqui para baixar o arquivo via ZIP</a>
+
+    <ol type="1" start="6">
+        <li><a href="aula/10 - Ligações em toda parte (2).pdf" download="arquivo10.pdf" type="application/pdf">Clique aqui para baixar o arquivo</a></li>
+        <ul type="square">
+            <li><a href="aula/10 - Ligações em toda parte (2).pdf" type="application/pdf" download="arquivo10.pdf">Clique aqui para iniciar o download de outra forma</a></li>
+        </ul>
+    </ol>
+    
+</body>
+
+</html>

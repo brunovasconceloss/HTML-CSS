@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color:cadetblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* visited é quando o site for visitado, ele vai ficar de acordo com oq configurei abaixo: 
+*/
+a:visited {
+    color: blue
+}
+
+/* hover é quando eu passo o mouse por cima, oq vai acontecer: */
+a:hover {
+    text-decoration: underline;
+    color:chartreuse;
+    font-size: 1.5em;
+}
+
+
+/* ACTIVE serve p quando eu clicar no link, ai nesse caso abaixo o link vai ficar vermelho. */
+a:active {
+    color: red
+}
+
+
+
+/*Pseudo-elementos:*/
+
+/* ANTES DO LINK (a): */
+a::before {
+content: '>';
+
+}
+
+/*DEPOIS DO LINK (a)*/
+
+a::after {
+ content: '<';
+
+}

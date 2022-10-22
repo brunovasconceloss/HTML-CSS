@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas mistas e de definição</title>
+</head>
+
+<body>
+        <h1>Outras formas de montagem de listas</h1>
+            <h2>Meus filmes favoritos</h2>
+            <ol>
+                <li>Antigos:</li>
+                    <ol type="a">
+                        <li>Rock</li>
+                        <li>Velozes e furioso</li>
+                        <li>Todos de ação</li>
+                        <li>Riquinho</li>
+                    </ol>
+                <li>Novos:</li>
+                    <ol type="a" start="5"> <!--Posso colocar uma lista dentro de uma lista e utilizar o parametro type e start caso desejavel-->
+                        <li>Esqueceram de mim</li>
+                        <li>Jurassic Park</li>
+                        <li>Vingadores</li>
+                        <li>Filmes Marvel</li>
+                    </ol>
+            </ol>
+            <h2>Meus jogos favoritos</h2>
+            <!--Consigo misturar dentro de uma OL uma UL e criar uma lista de acordo com o gosto-->
+                <ol>
+                    <li>PC</li>
+                        <ul type="square">
+                            <li>CS</li>
+                            <li>CS-GO</li>
+                            <li>GTA RP</li>
+                        </ul>
+                    <li>Console</li>
+                        <UL type="square">
+                            <li>God of War</li>
+                            <li>Far Cry</li>
+                                <ul type="circle">
+                                    <li>Far Cry 3</li>
+                                    <li>Far Cry 4</li>
+                                    <li>Far Cry 5</li>
+                                </ul>
+                            <li>Yu-gi-oh</li>
+                        </UL>
+                </ol>
+
+
+                <h2>Lista de definições</h2>
+                    <dt> Termo </dt> <!--Utilizada para colocar o termo -->
+                    <dd> Descrição </dt> <!--Utilizada para colocar a definição -->
+                    
+                        <dt>HTML</dt>
+                            <dd> Linguagem de marcação utilizada para criação de conteúdo de um site.</dd>
+                        <dt>CSS</dt>
+                            <dd>Linguagem de marcação utilizada para criação do desing de um site.</dd>
+                        <dt>Java Script</dt>
+                            <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+
+
+</body>
+
+</html>

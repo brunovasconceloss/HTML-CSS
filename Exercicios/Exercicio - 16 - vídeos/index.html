@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Videos</title>
+</head>
+
+<body>
+        <h1>Vídeos com HTML5 hospedados localmente</h1>
+            <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+            <!--Da mesma forma que o aúdio, existem duas maneiras de colocar um vídeo também, segue abaixo:-->
+
+            <video src="vídeos/Meuvideo.m4v" width="300px" controls> </video> <!-- Widht é o tamanho do vídeo na página -->
+
+            <!-- Agora vamos utilizar a outra maneira -->
+            <br>
+            <video controls poster="imagens/paisagem.png" width="300px">
+                <source src="vídeos/Meuvideo.m4v" type="video/mp4">
+                <source src="vídeos/meuvideo.mp4" type="video/mp4">
+                <source src="vídeos/Meuvideo.webm" type="video/webm">
+
+            </video>
+
+            <!-- ABAIXO TEM O FORMATO DE VÍDEO ATRAVÉS DO YOUTUBE, APENAS PEGAR O CÓDIGO INCORPORADO -->
+
+            <BR></BR>
+
+            <p>Vídeo através do youtube</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BKOr6Z4i9Kc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+
+</html>

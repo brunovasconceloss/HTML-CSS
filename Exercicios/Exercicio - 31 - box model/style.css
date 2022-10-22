@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* "H1" É INLINE-LEVEL / DISPLAY BLOCK  */ 
+
+h1 {
+    background-color:;
+    color: black;
+
+    height: 37px; /* TAMANHO DA CAIXA / BOX SYZE */
+    width: 448px; /* TAMANHO DA CAIXA / BOX SYZE */
+
+    border-width: 10px; /* PROPRIEDADES ANATOMICAS DO BOX  */
+    border-style: solid; /* PROPRIEDADES ANATOMICAS DO BOX  */
+    border-color:black; /* PROPRIEDADES ANATOMICAS DO BOX  */
+
+    padding-top: 10px;  /* PROPRIEDADES ANATOMICAS DO BOX  */
+    padding-right: 10px; /* PROPRIEDADES ANATOMICAS DO BOX  */
+    padding-bottom: 10px; /* PROPRIEDADES ANATOMICAS DO BOX  */
+    padding-left: 10px; /* PROPRIEDADES ANATOMICAS DO BOX  */
+ 
+    margin:auto; /* PROPRIEDADES ANATOMICAS DO BOX  */
+}
+
+
+/* O "A" É INLINE-BOX  / DISPLAY INLINE */
+
+a {
+    background-color: aqua;
+    height: 15px;
+    width: 30px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 10px;
+    padding-top: 10px; 
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin-top: 10px; /* PROPRIEDADES ANATOMICAS DO BOX  */
+    margin-right: 10px; /* PROPRIEDADES ANATOMICAS DO BOX  */
+    margin-bottom: 10px; /* PROPRIEDADES ANATOMICAS DO BOX  */
+    margin-left: 10px; /* PROPRIEDADES ANATOMICAS DO BOX  */
+
+    outline-width: 2px; /* PROPRIEDADES ANATOMICAS DO BOX  */
+    outline-style: dashed; /* PROPRIEDADES ANATOMICAS DO BOX  */
+    outline-color: crimson; /* PROPRIEDADES ANATOMICAS DO BOX  */
+} 
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:coral;
+    height: auto;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 35px;
+}

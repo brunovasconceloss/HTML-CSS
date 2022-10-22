@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    background-color: #91BDD9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px
+
+}
+
+header {
+    text-align: center;
+    background-color: #F2E6C2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header > nav {
+    height: 30px;
+}
+
+nav > a {
+    color:darkblue;
+    margin-right: 25px;
+    text-decoration: none;
+
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color:crimson
+
+}
+
+main {
+
+}
+
+
+#gta { 
+    background-color: darkorange;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 0px 50px;
+    padding: 4px;
+    height: 91px;
+    width: 550px;
+}
+
+#gta2 {
+    margin: 0px 25px;
+}
+
+#cs {
+    background-color: cornflowerblue;
+    margin: -115px 700px;
+    height: 91px;
+    width: 530px;
+    
+}
+
+#csgo2{
+    margin: 15px 15px;
+    
+
+}
+
+article > aside {
+    background-color: darkblue;
+    height: 30px;
+    font-size: 13px;
+    margin-right: 0px;
+}
+
+#resto {
+    background-color: lawngreen;
+    text-align: justify;
+    margin: 60px 1350px;
+    height: 15px;
+    width: 463px;
+    
+}
+footer {
+    background-color: #728EA6;
+    text-align: center;
+    margin: 600px 00px;
+    border: 2px;
+    padding: 2px
+}
+
+#cod {
+    margin: 50px 2px;
+}

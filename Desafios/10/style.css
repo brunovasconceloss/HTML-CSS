@@ -52,7 +52,6 @@ header > p {
     font-family: var(--fonte-texto);
     font-size: 1em;
     text-align: center;
-    width: 500px;
     margin: auto;
     min-width: 250px;
     max-width: 1000px;

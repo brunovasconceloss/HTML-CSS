@@ -1,0 +1,22 @@
+@charset 'UTF-8';
+
+
+#container {
+    background-color: cornflowerblue;
+    height: 94vh;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;  /* UTILIZADO PARA DEIXAR O CONTEÚDO CENTRALIZADO COM SEU GOSTO */
+}
+
+#conteudo {
+    background-color: blue;
+    height: 100px;
+    width: 350px;
+    position: absolute;  /* UTILIZADO PARA DEIXAR O CONTEÚDO CENTRALIZADO COM SEU GOSTO */
+
+    top: 50%; /* UTILIZADO PARA DEIXAR O CONTEÚDO CENTRALIZADO COM SEU GOSTO */
+    left: 50%; /* UTILIZADO PARA DEIXAR O CONTEÚDO CENTRALIZADO COM SEU GOSTO */
+
+    transform: translate(-50%, -50%); /* UTILIZADO PARA DEIXAR O CONTEÚDO CENTRALIZADO COM SEU GOSTO */
+}

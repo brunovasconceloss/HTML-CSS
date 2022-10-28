@@ -3,7 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 
-body {
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    min-height: 100vh;
     margin: 0px;
     padding: 0px;
 }
@@ -18,14 +25,15 @@ header > h1 {
     color: white;
     margin: 0px;
     text-align: center;
-    padding: 20px 15px 10px 20px;
-    font-size: 4em;
+    padding-top: 25px;
+    font-size: 5.5vh;
 }
 
 header > p {
     color: white;
     text-align: center;
     margin: 0px;
+    padding-bottom: 20px;
 }
 
 a {
@@ -35,13 +43,12 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
-
+article {
+    line-height: 2em;
 }
 
 .branco {
-    width: 100%;
-    height: 250px;
+    width: 100vh;
     background-color: white;
     font-family: 'Fuzzy Bubbles', cursive;
     position: relative;
@@ -50,21 +57,23 @@ main {
 
 #teste {
 
-    width: 350px;
-    height: 750px;
-    font-size: 2.5em;
-    padding: 150px 250px 70px;
+    width: 450px;
+    height: 85vh;
+    font-size: 2.5vh;
+    padding: 350px 150px 0px 150px;
     margin: 0px;
-    
+    font-weight: bolder;
+    line-height: 2em;    
 } 
 
 #teste2 {
 
-    width: 350px;
+    width: 450px;
     height: 750px;
-    font-size: 2em;
-    padding: 60px 250px 110px;
+    font-size: 1.5em;
+    padding: 220px 150px 220px 150px;
     margin: 0px;
+    font-weight: bolder;
     
 } 
 
@@ -73,9 +82,9 @@ main {
     width: 350px;
     height: 700px;
     font-size: 1.5em;
-    padding: 150px 250px 20px;
+    padding: 225px 150px 225px 150px;
     margin: 0px;
-    
+    font-weight: bolder;
 } 
 
 #teste3 > p {
@@ -84,50 +93,41 @@ main {
 
 article#flor {
     background-image: url('imagens/background001.jpg');
-    height: 100vh;
+    height: 110vh;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 article#flor > p {
-    height: 400px;
-    width: 305px;
-    background-color: rgba(119, 136, 153, 0.562);
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+    margin-left: 115px;
+    display: inline-block;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.575);
     color: white;
-    font-size: 2em;
-    position: absolute;
+    font-size: 2.5vh;
     font-family: 'Fuzzy Bubbles', cursive;
-    text-align: left;
-    
-    top: 50%;
-    left: 10%;
-
-    transform: translate(-50%, -50%);
+    padding: 6vh;
+    border-radius: 20px;
 }
 
 article#livro {
     background-image: url('imagens/background002.jpg');
-    height: 100vh;
+    height: 110vh;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 article#livro > p {
-    height: 400px;
-    width: 325px;
-    background-color: rgba(119, 136, 153, 0.562);
+
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.247);
     color: white;
     font-size: 2em;
-    position: absolute;
     font-family: 'Fuzzy Bubbles', cursive;
-
-    
-    top: 50%;
-    left: 10%;
-
-    transform: translate(-50%, -50%);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 footer {

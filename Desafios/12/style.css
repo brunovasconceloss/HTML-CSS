@@ -43,6 +43,10 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 article {
     line-height: 2em;
 }

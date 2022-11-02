@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: lightgreen;
+}
+
+.teste {
+    background-color: green;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.a2 {
+    color:yellow;
+}

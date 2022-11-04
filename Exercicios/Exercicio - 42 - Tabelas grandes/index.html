@@ -13,10 +13,11 @@
     
        
         <table>
+            <caption>População das unidadades Federativas</caption>
             <thead>
                 <tr>
-                    <th>Unidade federativa</td>
-                    <th>População</td>
+                    <th scope="col">Unidade federativa</td> <!-- O scope="col" é utilizado para que as informações relacionadas a Unidade Federativa (TITULO) sejam definidas na mesma coluna -->
+                    <th scope="col" id="teste">População</td>
                 </tr>
             </thead>
             <tbody>
@@ -137,7 +138,7 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <th>Total de habitantes</th>
+                    <th scope="row">Total de habitantes</th> <!-- scope row para informações na mesma linha -->
                     <th>214 milhões</th>
                 </tr>
             </tfoot>

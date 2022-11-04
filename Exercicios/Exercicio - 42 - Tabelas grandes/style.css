@@ -12,9 +12,20 @@ h1 {
     padding: 20px;
 }
 table {
-    width: 450px;
+    width: 400px;
     border-collapse: collapse;
+    position: absolute;
     
+}
+
+#teste {
+    width: 90px;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: green;
 }
 
 th {
@@ -32,3 +43,10 @@ td, th {
     
 }
 
+tbody > tr:nth-child(even) { /* No lugar de even pode utilizar 2n-1 */
+    background-color: lightgray;
+}
+
+tbody > tr:nth-child(odd) { /* No lugar de odd pode usar 2n */
+    background-color: lightblue;
+}

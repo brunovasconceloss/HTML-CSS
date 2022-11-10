@@ -57,3 +57,6 @@ main {
     transition: transform 1s, border 0.05s;
 }
 
+#icone {
+    padding: 120px 0px 0px 30px;
+}

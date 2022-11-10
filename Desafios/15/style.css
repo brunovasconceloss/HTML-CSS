@@ -31,3 +31,12 @@ main {
 
     transform: translate(-50%, -50%);
 }
+
+#thome {
+    position: relative;
+    top: 80px;
+    left: 22.5px;
+    height: 472px;
+    width: 266px;
+    
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    
+    <h1>Meu primeiro formulário</h1>
+
+
+
+        <form autocomplete="off" action="cadastro.php" method="POST"> <!-- Utilizamos a tag Form para abrir dar inicio aos formulários--> <!--Parametro autocomplete serve para deixar os dados que já foram utilizados anteriormente a amostra ou nao --> <!--Parametro action serve para encaminharmos o formulário para alguma linguagem de programação, no exemplo é PHP-->
+            <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"> </p> <!--Tag P foi utilizada para definir qual é o nome do nosso formulário, no caso o usuario teria que digitar seu Nome--> <!--Tag label é utilizada para que o Nome e o formulário sejam ligados --> <!--Tag input foi usada para criar o formulário, para o usuario digitar oq o site precisa. -->
+            <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+                <input type="submit" value="Enviar"> <!--Input subimit é o "botão" de enviar -->
+        </form>
+
+        <!--o parametro METHOd é utilizado para gerar um pouco mais de segurança no seu formulário, o valor POST é para quando você desejar gerar um pouco mais de segurança e o valor GET é utilizado para quando os dados não são tão sensiveis -->
+</body>
+
+</html>

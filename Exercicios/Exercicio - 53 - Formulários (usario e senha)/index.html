@@ -13,10 +13,10 @@
     <form action="" autocomplete="on" method="post">
 
         <p> <label for="iusuario">Usuario:</label>
-            <input type="text" name="usuario" id="iusuario" required minlength="5" maxlength="15"> <!-- Atributo required é utilizado para que a pagina não avance a página sem colocar nenhum dado-->  <!--minlength é o minimo de caracteres e maxlength é o maximo de caracteres-->
+            <input type="text" name="usuario" id="iusuario" required minlength="5" maxlength="15" autocomplete="username"> <!-- Atributo required é utilizado para que a pagina não avance a página sem colocar nenhum dado-->  <!--minlength é o minimo de caracteres e maxlength é o maximo de caracteres-->
         </p>
         <p> <label for="isenha">Senha:</label>
-            <input type="password" name="senha" id="isenha" required minlength="6" maxlength="15">
+            <input type="password" name="senha" id="isenha" required minlength="6" maxlength="15" autocomplete="current-password"> <!-- Autocomplete dentro do P está designando qual é a opção de cada um-->
         </p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">

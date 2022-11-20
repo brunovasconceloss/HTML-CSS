@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>E-mail e telefone</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+        <form action="form.php" method="post" autocomplete="on">
+            <p>
+                <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" required autocomplete="name" placeholder="Nome completo" maxlength="20" minlength="5">
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                    <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="E-mail">
+            </p>
+            <p>
+                <label for="inumero">Telefone:</label>
+                    <input type="tel" name="telefone" id="inumero" required autocomplete="tel" placeholder="(xx) xxxx-xxxx" maxlength="13" minlength="8">
+            </p>
+                    <input type="submit" value="Salvar">
+                    <input type="reset" value="Limpar">
+        </form>
+    
+        <!-- Estudar mais sobre RegEX -->
+</body>
+</html>

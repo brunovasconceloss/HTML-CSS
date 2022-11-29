@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Select e afins</title>
+</head>
+
+<body>
+    <h1>Exemplo de formulário</h1>
+
+        <p>
+            <label for="iestado">Estado</label>
+
+            <select name="estado" id="iestado">
+            
+                <option value="" selected>--- ESCOLHA ---</option>
+                    <optgroup label="Região Sudeste">
+                        <option value="MG">Minas Gerais </option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                  
+            
+                
+                    <optgroup label="Região Nordetes">
+                        <option value="CE">Ceara </option>
+                        <option value="MA">Maranhão</option>
+                        <option value="PE">Pernambuco</option>
+                    </optgroup>
+            </select>        
+        </p>
+
+            <label for="iprof">Profissão:</label>
+                <input type="text" name="profissao" id="iprof" list="listprof">
+                <datalist id="listprof">
+                    <option> Professor </option>
+                    <option> Musico </option>
+                    <option> Gamer </option>
+                    <option>Streamer</option>
+                    <option>Desenvolvedor</option>
+                    <option>Narrador</option>
+                    <option>Pedreiro</option>
+                </datalist>
+
+                <p>
+                    <label for="itext">Mensagem:</label>
+        
+                    <textarea name="text" id="itext" cols="30" rows="1"></textarea>
+                </p>
+            <p>
+                <input type="submit" value="Avançar">
+                <input type="reset" value="Limpar">
+            </p>
+</body>
+
+</html>

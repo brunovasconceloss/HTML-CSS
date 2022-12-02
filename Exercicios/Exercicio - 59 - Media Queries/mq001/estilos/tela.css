@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* Estilo para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: aquamarine;
+}
+
+menu li {
+    display: inline-block;
+    margin: 15px;
+    background-color: aqua;
+}
+
+
+
+article {
+    margin: auto;
+    display: block;
+    width: 430px;
+    height: 500px;
+}

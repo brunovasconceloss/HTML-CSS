@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Estilo para impressoras */
+
+* {
+    padding: 10px;
+    margin: 10px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+menu {
+ display: none;
+}
+
+
+article::after {
+    content: 'Esse artigo foi escrito apenas para testes';
+}
+
+h1 {
+    text-align: center;
+}

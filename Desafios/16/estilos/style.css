@@ -120,3 +120,18 @@ div.campo {
 div#teste {
     margin-bottom: 15px;
 } 
+
+div.campo > span {
+    color: #a6b43c;
+    font-size: 1.7em;
+   
+}
+
+div.campo > input {
+height: 100%;
+border-radius: 5px;
+padding: 4px;
+width: calc(100% - 36px);
+transform: translateY(-9px);
+
+}

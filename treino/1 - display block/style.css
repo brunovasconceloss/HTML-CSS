@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: aliceblue;
+}
+
+.itens {
+    text-align: center;
+}
+
+.item {
+    height: 200px;
+    width: 33.333%;
+    display: block;
+}
+
+#primeiro {
+    background-color: orange;
+    
+}
+
+#segundo {
+    background-color: green;
+    margin: auto;
+}
+
+#terceiro {
+    background-color: cornflowerblue;
+    margin-left: auto;
+}

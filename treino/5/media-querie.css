@@ -26,7 +26,7 @@
         display: flex;
         flex-direction: column;
         top: 100%;
-        right: 3%;
+        right: -100%;
         width: 230px;
         height: 40vh;
         border-radius: 30px;
@@ -69,6 +69,10 @@
 @media (max-width: 361px) {
     .nav {
         width: 200px;
-        height: 45vh
+        height: 45vh;
     }
+}
+
+.nav.open {
+    right: 3%;
 }

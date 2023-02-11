@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 770px) {
+    #foto {
+        background-image: url(imagens/mobile.jpg);
+        height: 40vh;
+        width: 70vw;    
+        background-position: center center;  
+       
+    }
+    
+    #page {
+        height: 90vh;
+        width: 70vw;
+    }
+
+    #texto {
+        height: 50vh;
+        width: 70vw;
+    }
+    
+    #perf {
+        font-size: 0.5em;
+    }
+
+    #nome {
+        font-size: 1em;
+    }
+
+    #detalhe {
+        font-size: 0.8em;
+        width: 40vw;
+    }
+
+    #dol {
+        font-size: 1.5em;
+        padding: 0px;
+        position: relative;
+    }
+
+    #dol > del {
+        font-size: 0.5em;
+        position: absolute;
+        top: 29%;
+        left: 110px;
+        
+    }
+
+    .botao {
+        display: inline;
+        font-size: 1.2em;
+        font-weight: 300;
+        margin: 5px
+    }
+}

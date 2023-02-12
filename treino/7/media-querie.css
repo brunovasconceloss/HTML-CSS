@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@media (max-width: 1030px) {
+    section {
+        padding: 0 3%;
+        transition: .10s;
+    }
+
+    .texto h4 {
+        font-size: 1em;
+    }
+
+    .texto h1 {
+        font-size: 1.5em;
+    }
+
+    .texto p {
+        font-size: 0.7em;
+        width: 50%;
+    }
+
+    button {
+        font-size: 0.9em;
+    }
+
+    .mainn {
+        background-position: 70%;
+        transition: .50s;
+    }
+}
+
+@media (max-width: 700px) {
+    #menu {
+        display: block;
+    }
+
+    .guias {
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: rgba(8,5,0,0.9);
+        transition: all .40s ease;
+    }
+
+    .guias a{
+        display: block;
+        padding: 1rem;
+        margin: 0.5rem;
+        border-left: 2px solid white;
+    }
+    
+    .open {
+        top: 100%
+    }
+
+    .mainn {
+        background-position: 70%;
+        transition: .50s;
+    }
+}

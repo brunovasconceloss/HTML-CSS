@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+    top: 0;
+    z-index: 1000;
+    background: transparent;
+    
+}
+
+.logo img {
+    max-width: 85px;
+    height: auto;
+}
+
+#menu {
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+.guias {
+    display: flex;
+    align-items: center;
+}
+
+.guias a {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    transition: all .30s ease;
+}
+
+.guias a:hover {
+    color: #F8AA33;
+}
+
+.guias a.active {
+    color: #F8AA33;
+}
+
+.guias a.active:hover {
+    color: #d18f2c;
+}
+
+.guias a.botao {
+    border: 2px solid white;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    transition: .5s;
+}
+
+.guias a.botao:hover {
+    color: #F8AA33;
+    border-color: #F8AA33;;
+}
+
+main {
+    color: white;
+    padding: 0 15%;
+}
+
+.mainn {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/fundo1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    align-items: center;
+}
+
+.texto h4 {
+    padding: 10px 0px;
+    font-size: 1.5em;
+}
+
+.texto h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    
+}
+
+.texto span {
+    color: #F8AA33;;
+}
+
+.texto p {
+    width: 40%;
+    text-align: justify;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    color: #a9afc3;
+    font-weight: 400;
+
+}
